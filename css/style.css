@@ -1,0 +1,115 @@
+:root
+{
+    --border-color: #524a43;
+    --gradient-color:#B3AC49;
+}
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #F7ECDE;
+}
+header #main
+{
+    padding: 0;
+font-family: 'Pacifico', cursive;
+font-weight: lighter;
+font-size: 50px;
+margin: 0;
+color: #352E28;
+}
+header .header_container
+{
+    margin-top: 50px !important;
+    margin:auto ;
+    width: fit-content;
+    overflow: hidden;
+ position: relative;
+ top: 0;
+ left: 0;
+
+}
+
+header .layer{
+    background-color: #FEC260 ;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    transition: .5s all ease-out;
+
+
+}
+header .header_container:hover .layer
+{
+    top: 30%;    
+}
+
+.container
+{
+    border-top: 2px dotted var(--border-color) ;
+}
+
+.container .button-style
+{
+   
+    background-color: #D1512D;
+    padding: 8px 50px;
+    border:none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.container .form-heading
+{
+   
+    background-image: linear-gradient(to right , #40A55B,#B3AC49);
+    background-clip: text;
+    color: transparent;
+    font-size: 25px;
+    font-weight: bold;
+}
+.book-1{
+color: #40A55B;    
+}
+.book-2
+{
+    color: var(--gradient-color);
+}
+
+label
+{
+    font-weight: bolder;
+}
+.form-control:focus {
+         border-color: transparent !important;
+    box-shadow: 0 0 0 0.017rem #D99C39 !important;
+}
+
+.container .table-container
+{
+    border-top: 2px dotted var(--border-color) ;
+}
+
+.container .btn2
+{
+    color: #fff;
+    background-color:#a5b748;
+    transition: .5 all ;
+}
+.container .btn2:hover
+{
+    background-color:#b5ce3b; 
+}
+
+.btn
+{
+    padding: 8px 15px !important;
+}
