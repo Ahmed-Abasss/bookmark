@@ -71,7 +71,7 @@ header .header_container:hover .layer
 {
    
     background-image: linear-gradient(to right , #40A55B,#B3AC49);
-    background-clip: text;
+    background-clip: text ;
     color: transparent;
     font-size: 25px;
     font-weight: bold;
@@ -112,4 +112,21 @@ label
 .btn
 {
     padding: 8px 15px !important;
+}
+
+
+@media screen and (min-width:400px) and (max-width:800px) {
+
+    .container .form-heading
+    {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:400px) {
+
+    .container .form-heading
+    {
+        font-size: 18px;
+    }
 }

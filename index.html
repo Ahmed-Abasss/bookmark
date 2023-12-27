@@ -19,39 +19,43 @@
         <div class="layer"></div>
     </div>
     <div class="container my-5 p-3">
-<h2 class="form-heading text-center mt-3 col-sm-12">
-    <i class="fa-solid fa-bookmark book-1"></i>
-    Bookmark your favorite sites
-    <i class="fa-solid fa-bookmark book-2"></i></h2>
-
-<div class="form-group">
-    <label for="site-name" class="my-2"><i class="fa-solid fa-book-bookmark"></i> Site Name</label>
-    <input type="text" name=""  id="site-name" placeholder="Enter site name" class="form-control p-2" id="site-name">
-</div>
-<div class="form-group">
-    <label for="site-url" class="my-2"><i class="fa-solid fa-link"></i> Site Url</label>
-    <input type="url" name="" id="site-url" placeholder="Enter site Url" class="form-control p-2" id="site-url">
-</div>
-
-<div class="btn-container d-flex justify-content-center my-3 mb-5">
-    <button onclick="addSite()" class="button-style">submit</button>
-</div>
-
-<div class="table-container p-3">
-    <table class="table text-center">
-        <thead>
-        <tr>
-            <th>Index</th>
-            <th>Website Name</th>
-            <th>Visit</th>
-            <th>Delete</th>
-        </tr>
-        </thead>
-        <tbody id="table-body">
+        <div class="row">
+            <div class="try col-md-12 col-lg-12 col-sm-12">
+                <h2 class="form-heading text-center mt-3 text-nowrap ">
+                    <i class="fa-solid fa-bookmark book-1"></i>
+                    Bookmark your favorite sites
+                    <i class="fa-solid fa-bookmark book-2"></i></h2>
+            </div>
             
-        </tbody>
-        </table>
-</div>
+            <div class="form-group">
+                <label for="site-name" class="my-2"><i class="fa-solid fa-book-bookmark"></i> Site Name</label>
+                <input type="text" name=""  id="site-name" placeholder="Enter site name" class="form-control p-2" id="site-name">
+            </div>
+            <div class="form-group">
+                <label for="site-url" class="my-2"><i class="fa-solid fa-link"></i> Site Url</label>
+                <input type="url" name="" id="site-url" placeholder="Enter site Url" class="form-control p-2" id="site-url">
+            </div>
+            
+            <div class="btn-container d-flex justify-content-center my-3 mb-5">
+                <button onclick="addSite()" class="button-style">submit</button>
+            </div>
+            
+            <div class="table-container p-3">
+                <table class="table text-center">
+                    <thead>
+                    <tr>
+                        <th>Index</th>
+                        <th>Website Name</th>
+                        <th>Visit</th>
+                        <th>Delete</th>
+                    </tr>
+                    </thead>
+                    <tbody id="table-body">
+                        
+                    </tbody>
+                    </table>
+            </div>
+            </div>
     </div>
 </header>
 <script src="js/all.min.js"></script>
